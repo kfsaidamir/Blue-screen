@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: white;
+    background-image: url(77992cf5ed8c4a08580c300e7b4d19c4.gif);
+}
+
+.countDown { 
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .countDown > div {
+    display: flex;
+  }
+  
+  .box {
+    padding: 10px 20px;
+  }
+  
+  .box > h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+  }
